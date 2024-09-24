@@ -1,0 +1,73 @@
+:root {
+    --primal-cta: #e4336a;
+    --low-opacity: 0.5;
+    --p-color: rgba(51, 51, 51, 0.999);
+    --h1-color: #333333;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../font/poppins.woff2);
+}
+
+body {
+    font-family: poppins;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#prime {
+    color: var(--h1-color);
+    text-align: center;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+#prime {
+    margin-bottom: 32px;
+}
+
+.more p {
+    display: inline;
+    padding-left: 20px;
+    margin-right: 2px;
+}
+.more {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    cursor: pointer;
+}
+
+.more:hover  #flesh {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+#flesh {
+    transition: 500ms;
+}
+
+main {
+    background-color: #1c5bea;
+}
+
+
+.download {
+    color: rgb(234, 17, 17);
+    padding: 2px 4px;
+    border-radius: 12px;
+}
+
